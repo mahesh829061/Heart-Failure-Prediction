@@ -20,13 +20,9 @@ This repository contains code and analysis to predict heart failure risk from pa
 
 ## 🧾 Dataset
 
-**Source:** Add citation or link to the original dataset (for example: UCI Heart Failure Clinical Records Dataset) — if you used a different dataset, update this section.
-
 **Columns (example):** `age, anaemia, creatinine_phosphokinase, diabetes, ejection_fraction, high_blood_pressure, platelets, serum_creatinine, serum_sodium, sex, smoking, time, target`
 
 **Target:** `target` (1 = death event — or change depending on dataset). Clarify label encoding used in the notebook.
-
-**Notes:** If the original dataset can’t be included due to licensing, add a script `data_download.sh` with instructions to fetch it or point to the original source.
 
 ---
 
@@ -45,34 +41,6 @@ jupyter
 tensorflow>=2.0  # only if using the ANN implementation
 joblib
 shap
-```
-
-Add a `requirements.txt` for reproducibility (see `suggested-files` below).
-
----
-
-## 🚀 How to run
-
-1. Clone the repo:
-
-```bash
-git clone https://github.com/mahesh829061/Heart-Failure-Prediction.git
-cd Heart-Failure-Prediction
-```
-
-2. Create venv and install dependencies:
-
-```bash
-python -m venv venv
-source venv/bin/activate   # mac / linux
-venv\Scripts\activate     # windows
-pip install -r requirements.txt
-```
-
-3. Open the notebook and run cells (or convert applicable sections into `train.py` / `evaluate.py` to run from CLI):
-
-```bash
-jupyter notebook Analysis-and-Model.ipynb
 ```
 
 ---
