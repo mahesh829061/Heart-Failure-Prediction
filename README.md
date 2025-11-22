@@ -53,6 +53,4 @@ I trained several models and evaluated them on the held-out test set. For each m
 * Random Forest — Accuracy: 0.87, ROC AUC: 0.90
 * ANN (Keras) — Accuracy: 0.86, ROC AUC: 0.89
 
-Add confusion matrices and ROC plots saved to `reports/figures/` for reproducibility.
-
 ---
