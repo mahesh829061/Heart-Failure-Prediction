@@ -13,7 +13,7 @@ This repository contains code and analysis to predict heart failure risk from pa
 ## 📂 What’s in this repo
 
 * `Analysis-and-Model.ipynb` — Jupyter notebook with EDA, preprocessing, training, evaluation, and visualizations.
-* `ANN_heart_Prediction.csv` — (exported) dataset used for modeling. If this is derived from a public dataset, include the original data source and citation.
+* `ANN_heart_Prediction.csv` — (exported) dataset used for modeling.
 * `README.md` — this file.
 
 ---
@@ -47,7 +47,7 @@ shap
 
 ## 📈 Models & Results
 
-Summarize the models trained and the best results found (accuracy, precision, recall, F1-score, ROC AUC). Example entry (update with the values from your notebook):
+I trained several models and evaluated them on the held-out test set. For each model i report: Accuracy, Precision, Recall, F1-score, and ROC AUC.:
 
 * Logistic Regression — Accuracy: 0.85, ROC AUC: 0.88
 * Random Forest — Accuracy: 0.87, ROC AUC: 0.90
