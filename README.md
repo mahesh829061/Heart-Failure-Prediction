@@ -6,8 +6,7 @@
 
 This repository contains code and analysis to predict heart failure risk from patient-level features using classical machine learning and a small artificial neural network (ANN). The analysis demonstrates data cleaning, exploratory data analysis (EDA), feature engineering, model training, evaluation, and interpretation.
 
-> *Goal:* Build and evaluate models that predict the presence/occurrence of heart failure from the provided dataset and package the pipeline so others can reproduce results.
-
+> 
 ---
 
 ## 📂 What’s in this repo
